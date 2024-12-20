@@ -1,0 +1,10 @@
+# Exclure les fichiers sensibles et caches
+public/wp-config.php
+public/wp-content/uploads/
+public/wp-content/cache/
+.DS_Store
+*.log
+
+# Exclure les fichiers temporaires
+sql/*.tmp
+sql/*.bak
