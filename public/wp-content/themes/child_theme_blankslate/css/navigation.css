@@ -1,0 +1,76 @@
+/* Menu navigation */
+#menu {
+    display: flex;
+    align-items: center;
+}
+
+/* Conteneur du menu */
+#menu ul {
+    display: flex !important;
+    flex-direction: row !important;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    gap: 60px;
+}
+
+#menu ul li {
+    display: flex;
+    align-items: center;
+}
+
+/* Forcer l'ordre des éléments */
+#menu ul li a[href*="commander"] {
+    order: 3;
+}
+
+#menu ul li a[href*="nous-rencontrer"] {
+    order: 1;
+}
+
+.admin-only {
+    order: 2;
+}
+
+/* Style de base pour tous les liens */
+#menu a {
+    text-decoration: none;
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    color: black;
+    white-space: nowrap;
+}
+
+/* Style spécifique pour le bouton Commander */
+#menu ul li a[href*="commander"] {
+    background-color: #DC9F96;
+    color: white !important;
+    padding: 30px 50px !important;
+    font-weight: 700;
+}
+
+#menu ul li a[href*="commander"]:hover {
+    background-color: #C02E44;
+    transition: background-color 0.3s ease;
+}
+
+/* Style hover pour les liens texte */
+#menu a:hover:not([href*="commander"]) {
+    font-weight: 500;
+}
+
+/* Style item actif */
+.current-menu-item a:not([href*="commander"]) {
+    font-weight: 500;
+}
+
+/* Style pour le parent li du lien Commander */
+#menu ul li:has(a[href*="commander"]) {
+    order: 3;
+}
+
+/* Style pour le parent li du lien Nous rencontrer */
+#menu ul li:has(a[href*="nous-rencontrer"]) {
+    order: 1;
+}

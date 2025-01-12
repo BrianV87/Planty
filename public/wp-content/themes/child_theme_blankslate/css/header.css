@@ -1,0 +1,30 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding-left: 30px;
+}
+
+/* Logo styles */
+#branding {
+    flex: 1;
+}
+
+#site-title a {
+    display: block;
+}
+
+#site-title span {
+    font-size: 0;
+    background-image: url('http://planty.local/wp-content/uploads/2025/01/Logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 20px;
+    display: block;
+}
+
+#site-description {
+    display: none;
+}

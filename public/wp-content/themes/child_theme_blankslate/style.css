@@ -11,3 +11,12 @@ License URI: https://www.gnu.org/licenses/gpl.html
 Tags: plantes, fleurs, jardin, nature, environnement
 Text Domain: child_theme_blankslate
 */
+
+/* Style principal */
+@import url('css/burger-menu.css');
+@import url('css/header.css');
+@import url('css/navigation.css');
+@import url('css/forms.css');
+@import url('css/responsive.css');
+@import url('js/menu.js');
+@import url('css/footer.css');

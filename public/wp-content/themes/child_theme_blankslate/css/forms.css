@@ -1,0 +1,173 @@
+/** Formulaire Contact spécifique (wpcf7-f154-p15-o1) **/
+form[action*="wpcf7-f154-p15-o1"] {
+    padding: 20px;
+    border-radius: 7px;
+    width: 400px;
+    margin: 0 auto;
+    font-family: Syne, sans-serif;
+  }
+  
+  form[action*="wpcf7-f154-p15-o1"] p {
+    margin-bottom: 20px;
+  }
+  
+  form[action*="wpcf7-f154-p15-o1"] label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 4px;
+    color: #000000;
+    text-align: left;
+  }
+  
+  form[action*="wpcf7-f154-p15-o1"] input[type="text"],
+  form[action*="wpcf7-f154-p15-o1"] input[type="email"],
+  form[action*="wpcf7-f154-p15-o1"] textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 7px;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-top: 10px;
+    font-family: Syne, sans-serif;
+  }
+  
+  form[action*="wpcf7-f154-p15-o1"] input[type="text"]:focus,
+  form[action*="wpcf7-f154-p15-o1"] input[type="email"]:focus,
+  form[action*="wpcf7-f154-p15-o1"] textarea:focus {
+    outline: none;
+  }
+  
+  form[action*="wpcf7-f154-p15-o1"] input[type="submit"] {
+    display: block;
+    background-color: #E0B9B4;
+    color: white;
+    font-size: 15px;
+    padding: 15px 55px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+    font-family: Syne, sans-serif;
+  }
+  
+  form[action*="wpcf7-f154-p15-o1"] input[type="submit"]:hover {
+    background-color: #C02E44;
+    transition: background-color 0.3s ease;
+  }
+  
+  form[action*="wpcf7-f154-p15-o1"] textarea {
+    resize: none;
+  }
+  
+  form[action*="wpcf7-f154-p15-o1"] .wpcf7-response-output {
+    display: none;
+  }
+  
+  form[action*="wpcf7-f154-p15-o1"] .post-edit-link {
+    display: none;
+  }
+  
+  form[action*="wpcf7-f154-p15-o1"] .entry-title {
+    display: none !important;
+  }
+  
+  /** Deuxieme formulaire de contact **/
+  form[action*="wpcf7-f371-p13-o1"] {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Syne, sans-serif;
+  }
+  
+  form[action*="wpcf7-f371-p13-o1"] .form-container {
+    display: flex;
+    gap: 70px;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  form[action*="wpcf7-f371-p13-o1"] .form-column {
+    flex: 1;
+  }
+  
+  /* Ligne de séparation */
+  form[action*="wpcf7-f371-p13-o1"] .form-container::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background-color: #FFFFFF;
+    transform: translateX(-50%);
+  }
+  
+  form[action*="wpcf7-f371-p13-o1"] h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+    font-family: Syne, sans-serif;
+  }
+  
+  form[action*="wpcf7-f371-p13-o1"] p {
+    margin-bottom: 20px;
+  }
+  
+  form[action*="wpcf7-f371-p13-o1"] label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 4px;
+    color: #FFFFFF;
+    text-align: left;
+  }
+  
+  form[action*="wpcf7-f371-p13-o1"] input[type="text"],
+  form[action*="wpcf7-f371-p13-o1"] input[type="email"] {
+    width: 100%;
+    padding: 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 7px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    margin-top: 10px;
+    font-family: Syne, sans-serif;
+  }
+  
+  form[action*="wpcf7-f371-p13-o1"] input[type="text"]:focus,
+  form[action*="wpcf7-f371-p13-o1"] input[type="email"]:focus {
+    outline: none;
+  }
+  
+  form[action*="wpcf7-f371-p13-o1"] input[type="submit"] {
+    display: block;
+    background-color: #E0B9B4;
+    color: white;
+    font-size: 15px;
+    padding: 15px 55px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+    font-family: Syne, sans-serif;
+  }
+  
+  form[action*="wpcf7-f371-p13-o1"] input[type="submit"]:hover {
+    background-color: #C02E44;
+    transition: background-color 0.3s ease;
+  }
+  
+  form[action*="wpcf7-f371-p13-o1"] .wpcf7-response-output {
+    display: none;
+  }
+  
+  form[action*="wpcf7-f371-p13-o1"] .post-edit-link {
+    display: none;
+  }
+  
+  form[action*="wpcf7-f371-p13-o1"] .entry-title {
+    display: none !important;
+  }
+  
