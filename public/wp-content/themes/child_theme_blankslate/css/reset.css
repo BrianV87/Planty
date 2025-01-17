@@ -3,7 +3,3 @@ body .edit-link,
 body .post-edit-link {
     display: none !important;
 }
-
-.entry-title {
-    display: none !important;
-}

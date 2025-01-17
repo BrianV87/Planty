@@ -171,3 +171,22 @@ form[action*="wpcf7-f154-p15-o1"] {
     display: none !important;
   }
   
+  /** Input page commander  **/
+  .custom-input {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 8px;
+    height: 50px;
+    border: none;
+    border-radius: 0!important;
+}
+
+.custom-input[type="text"] {
+    color: black;
+    text-align: center;
+}
+
+.custom-input::placeholder {
+    color: black;
+}

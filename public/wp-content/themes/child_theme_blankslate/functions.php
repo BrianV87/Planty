@@ -30,6 +30,18 @@ function planty_add_admin_menu_item($items, $args) {
 }
 add_filter('wp_nav_menu_items', 'planty_add_admin_menu_item', 10, 2);
 
+// Fonction qui vérifie si un utilisateur est connecté peut importe son rôle // 
+
+// function planty_add_admin_menu_item($items, $args) {
+//     // Vérifie si le menu est celui défini comme "main-menu"
+//     if ($args->theme_location === 'main-menu' && is_user_logged_in()) {
+//         // Ajoute un lien "Admin" à la fin du menu si l'utilisateur est connecté
+//         $items .= '<li class="menu-item admin-only"><a href="' . esc_url(admin_url()) . '"><span itemprop="name">Admin</span></a></li>';
+//     }
+//     return $items;
+// }
+// add_filter('wp_nav_menu_items', 'planty_add_admin_menu_item', 10, 2);
+
 
 function register_footer_menu() {
     register_nav_menu('menu-footer', 'Menu Footer');  // Enregistrer l'emplacement du menu footer
